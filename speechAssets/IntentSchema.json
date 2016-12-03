@@ -1,0 +1,48 @@
+{
+    "intents":[
+        {
+            "intent":"LoginSystem",
+            "slots" : []
+        },
+        {
+            "intent":"VerifySN",
+            "slots":[
+                {
+                    "name":"password",
+                    "type":"AMAZON.NUMBER"
+                }
+            ]
+        },
+        {   "intent": "GoForward",
+            "slots" : []
+        },
+        {   "intent": "Stop",
+            "slots" : []
+        },
+        {   "intent": "TurnLeft",
+            "slots" : []
+        },
+        {   "intent": "TurnRight",
+            "slots" : []
+        },
+        {   "intent": "TurnBack",
+            "slots" : []
+        },
+        {   "intent": "TakePhoto",
+            "slots" : []
+        },
+        {   "intent": "Find",
+            "slots" : [
+                {
+                    "name": "pname",
+                    "type": "AMAZON.DE_FIRST_NAME"
+                }
+            ]
+        },
+        {
+            "intent":"ExitSystem",
+            "slots" :[]
+        }
+
+    ]
+}

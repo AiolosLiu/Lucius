@@ -1,0 +1,19 @@
+{
+  "name": "conrobot",
+  "version": "1.0.0",
+  "description": "Try to move , take photos and find someone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "robot",
+    "voice",
+    "find"
+  ],
+  "author": "Lucius",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6"
+  }
+}
